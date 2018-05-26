@@ -10,7 +10,7 @@ class Core extends \atoum
 		$this->
 			given($this->newTestedInstance)->
 			string($this->testedInstance->segments())->
-			isEqualTo('hoge')
+			isEqualTo('-')
 		;
 	}
 }

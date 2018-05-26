@@ -2,5 +2,5 @@ language: php
 php:
   - 7.0
 
-before_script: https://github.com/atoum/atoum/releases/download/3.2.0/atoum.phar
+before_script: wget https://github.com/atoum/atoum/releases/download/3.2.0/atoum.phar
 script: php atoum.phar -f tests/Core.php 
